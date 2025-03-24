@@ -2,20 +2,22 @@ class Solution {
 public:
     int countDays(int days, vector<vector<int>>& meetings) {
         int n = days;
-        vector<bool> day(n+1,true);
-        for(auto &vec : meetings){
-            int start = vec[0];
-            int end = vec[1];
-            while(start <= end){
-                day[start]=false;
-                start++;
-            }
-        }
+        int start = 0;
+        int end = 0;
+        
         int c = 0;
-        for(int i = 1 ; i <= n ; i++){
-            if(day[i] == true)
-                c++;
+       
+        sort(meetings.begin() , meetings.end());
+        for(auto &vec : meetings){
 
+            if(vec[0] > end){
+                c += vec[0] - end - 1;
+            }
+
+            end = max(vec[1] , end);
+        }
+        if(n > end){
+            c += n - end ;
         }
         return c;
         
