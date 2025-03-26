@@ -10,7 +10,7 @@ public:
                 arr.push_back(grid[i][j]);
             }
         }
-        int l = m+n;
+        int l = arr.size();
         sort(arr.begin() , arr.end() );
         int target = arr[(l/2)];
         int c = 0;
