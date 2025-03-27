@@ -1,6 +1,9 @@
 class Solution {
 public:
-    int maxPoints(vector<vector<int>>& points) {
+    // Bruteforce is O(n^3)
+    // completed in 52ms
+    // beats 18.83% user
+    int bruteforce(vector<vector<int>>& points){
         int maxi = 0;
         int n = points.size();
         if(n==1) return 1;
@@ -41,5 +44,30 @@ public:
         }
         return maxi;
 
+    }
+    int maxPoints(vector<vector<int>>& points) {
+        // return bruteforce(points);
+
+        int n = points.size();
+        if( n == 2 || n == 1){
+            return n;
+        }
+        int maxi = 0;
+        for(int i = 0 ; i < n ; i++){
+            unordered_map<double,int>mp; 
+            for(int j = 0 ; j < n ; j++){
+                if(i == j) continue;
+                double slope;
+                int dx = (points[i][0] - points[j][0]);
+                int dy = (points[i][1] - points[j][1]);
+                double angle = atan2(dy,dx);
+                mp[angle]++; 
+            }
+            for(auto &it :mp){
+                maxi = max(maxi , it.second+1);
+
+            }
+        }
+        return maxi;
     }
 };
