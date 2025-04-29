@@ -16,20 +16,18 @@ public:
             return 0;
         }
         int i = 0 , j = 0;
-        unordered_map<int , int>mp;
-        long long localmax = 0;
+        int count =0;
+        
         while(j < n){
-            mp[nums[j]]++;
-            while(mp[maxe] >= k){
+            if(nums[j] == maxe)
+                count++;
+            while(count >= k){
                 c += n-j;
-                mp[nums[i]]--;
-                if (mp[nums[i]] == 0) {
-                    mp.erase(nums[i]);
-                }
+                if(nums[i] == maxe)
+                    count--;
                 i++;
             }
             j++;
-
         }
         return c;
     }
