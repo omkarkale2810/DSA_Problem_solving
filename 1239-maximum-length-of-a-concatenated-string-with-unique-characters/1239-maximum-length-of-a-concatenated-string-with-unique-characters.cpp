@@ -18,23 +18,28 @@ public:
         return false;
 
     }
-    int solve(vector<string>& arr , int idx , string temp , int& n){
+    int solve(vector<string>& arr , int idx , string temp , int& n ,unordered_map<string,int>& dpmp){
+
         if(idx >= n){
             return temp.length();
+        }
+        if(dpmp.find(temp) != dpmp.end()){
+            return dpmp[temp];
         }
         int take = 0;
         int nottake = 0;
         if(isanycharduplicate(arr[idx] , temp)){
-            nottake = solve(arr,idx+1 , temp , n); 
+            nottake = solve(arr,idx+1 , temp , n , dpmp); 
         }
         else{
-            nottake = solve(arr, idx+1 , temp , n);
-            take = solve(arr , idx+1 , temp + arr[idx] , n);
+            nottake = solve(arr, idx+1 , temp , n ,dpmp);
+            take = solve(arr , idx+1 , temp + arr[idx] , n , dpmp);
         }
-        return max(take , nottake);
+        return dpmp[temp] = max(take , nottake);
     }
     int maxLength(vector<string>& arr) {
         int n = arr.size();
-        return solve(arr, 0 , "" , n);
+        unordered_map<string , int> dpmp;
+        return solve(arr, 0 , "" , n , dpmp);
     }
 };
