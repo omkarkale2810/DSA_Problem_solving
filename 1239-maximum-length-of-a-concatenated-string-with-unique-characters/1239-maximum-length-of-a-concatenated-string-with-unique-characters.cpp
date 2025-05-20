@@ -24,7 +24,7 @@ public:
         }
         int take = 0;
         int nottake = 0;
-        if(isanycharduplicate(temp , arr[idx])){
+        if(isanycharduplicate(arr[idx] , temp)){
             nottake = solve(arr,idx+1 , temp , n); 
         }
         else{
