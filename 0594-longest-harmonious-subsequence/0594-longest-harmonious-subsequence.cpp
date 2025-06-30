@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
-        map<int, int> mp;
+        unordered_map<int, int> mp;
         for (int num : nums) {
             mp[num]++;
         }
@@ -10,6 +10,9 @@ public:
         for (auto& [num, freq] : mp) {
             if (mp.count(num + 1)) {
                 ans = max(ans, freq + mp[num + 1]);
+            }
+            else if (mp.count(num - 1)) {
+                ans = max(ans, freq + mp[num - 1]);
             }
         }
 
