@@ -12,7 +12,7 @@ public:
             int mid = ( right + left ) / 2;
 
             long actsum = presum[target_idx] - presum[mid] + nums[mid];
-            long sum = (target_idx - mid + 1) * target;
+            long sum = (long)(target_idx - mid + 1) * target;
 
             int opp = sum - actsum;
 
