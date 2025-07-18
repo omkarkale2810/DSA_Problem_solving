@@ -18,14 +18,14 @@ public:
             }
             len++;
 
-            while(zc > k){
+            while(fc > k){
                 if(key[i] == 'F'){
-                    zc--;
+                    fc--;
                 }
                 i++;
                 len--;
             }   
-            if(zc <= k){
+            if(fc <= k){
                 maxlen = max(len,maxlen);
             }
             j++;
@@ -34,26 +34,30 @@ public:
 
         i = 0;
         j = 0;
-        
+        len = 0;
+
+        int tc = 0;
+
         while( j < n ){
             
-            if(key[j] == 'F'){
-                fc++;
+            if(key[j] == 'T'){
+                tc++;
             }
             len++;
 
-            while(zc > k){
-                if(key[i] == 'F'){
-                    zc--;
+            while(tc > k){
+                if(key[i] == 'T'){
+                    tc--;
                 }
                 i++;
                 len--;
             }   
-            if(zc <= k){
+            if(tc <= k){
                 maxlen = max(len,maxlen);
             }
             j++;
         }
+
         return maxlen;
     }
 };
