@@ -37,7 +37,7 @@ public:
                 if(req_notes <= temp[idx]){
                     temp[idx] -= req_notes;
                     ans[idx] = req_notes;
-                    amount -= mp[idx]*req_notes;
+                    amount = amount%mp[idx];
                 }
                 else{
                     ans[idx] =  temp[idx];
