@@ -37,12 +37,12 @@ public:
                 if(req_notes <= temp[idx]){
                     temp[idx] -= req_notes;
                     ans[idx] = req_notes;
-                    amount = amount%mp[idx];
+                    amount -= mp[idx]*req_notes;
                 }
                 else{
-                    temp[idx] = 0;
                     ans[idx] =  temp[idx];
                     amount -= mp[idx]*temp[idx];
+                    temp[idx] = 0;
                 }
             }
             idx--;
