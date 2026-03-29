@@ -1,38 +1,22 @@
 class Solution {
 public:
-    int solve(int idx , int p , vector<int>& nums , int n , vector<vector<int>>& dp){
+    int solve(int idx, int prev, int n, vector<int>& nums,vector<vector<int>>& dp){
         if(idx >= n){
             return 0;
         }
-        if(dp[idx][p + 1] != -1){
-            return dp[idx][p + 1];
+        if(prev != -1 && dp[idx][prev] != -1){
+            return dp[idx][prev];
         }
         int take = 0;
-        if(p == -1 || nums[p] < nums[idx]){
-            take = 1 + solve(idx + 1, idx, nums, n, dp);
+        if(prev == -1 || nums[prev] < nums[idx]){
+            take = 1 + solve(idx+1, idx, n , nums,dp); 
         }
-        int nottake = solve(idx + 1, p, nums, n, dp);
-        return dp[idx][p + 1] = max(take, nottake);
+        int skip = solve(idx+1, prev, n , nums,dp);
+        return prev == -1? max(take, skip):dp[idx][prev] = max(take, skip);
     }
-
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        // vector<vector<int>> dp(n, vector<int>(n + 1, -1));
-        // return solve(0, -1, nums, n, dp);
-
-        // new method patience sorting
-        vector<int> sorted;
-
-        for(int i = 0 ; i < n ; i++){
-            auto it = lower_bound(sorted.begin() , sorted.end() , nums[i]);
-
-            if(it == end(sorted)){
-                sorted.push_back(nums[i]);
-            }
-            else{
-                *it = nums[i];
-            }
-        }
-        return sorted.size();
+        vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
+        return solve(0, -1, n, nums, dp);
     }
 };
