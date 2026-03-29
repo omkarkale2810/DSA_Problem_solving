@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0011-container-with-most-water/) | Medium |
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0238-product-of-array-except-self/) | Medium |
@@ -25,4 +26,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0011-container-with-most-water/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
