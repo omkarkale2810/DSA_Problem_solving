@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0518-coin-change-ii](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0518-coin-change-ii/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
 | [0070-climbing-stairs](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0070-climbing-stairs/) | Easy |
 | [0338-counting-bits](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0338-counting-bits/) | Easy |
+| [0518-coin-change-ii](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0518-coin-change-ii/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
