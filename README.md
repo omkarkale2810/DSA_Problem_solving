@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
+| [0338-counting-bits](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0338-counting-bits/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -34,4 +35,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0011-container-with-most-water/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0338-counting-bits](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0338-counting-bits/) | Easy |
 <!---LeetCode Topics End-->
