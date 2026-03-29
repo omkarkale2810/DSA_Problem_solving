@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
 | [0070-climbing-stairs](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0070-climbing-stairs/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0011-container-with-most-water](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0011-container-with-most-water/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -55,4 +57,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0070-climbing-stairs/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
