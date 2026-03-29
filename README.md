@@ -39,4 +39,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0338-counting-bits](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0338-counting-bits/) | Easy |
+| [0371-sum-of-two-integers](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0371-sum-of-two-integers/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0371-sum-of-two-integers](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0371-sum-of-two-integers/) | Medium |
 <!---LeetCode Topics End-->
