@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0238-product-of-array-except-self/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -20,4 +21,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0053-maximum-subarray/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 <!---LeetCode Topics End-->
