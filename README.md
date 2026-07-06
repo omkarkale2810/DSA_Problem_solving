@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0518-coin-change-ii/) | Medium |
+| [1288-remove-covered-intervals](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/1288-remove-covered-intervals/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -61,4 +62,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0005-longest-palindromic-substring/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1288-remove-covered-intervals](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/1288-remove-covered-intervals/) | Medium |
 <!---LeetCode Topics End-->
