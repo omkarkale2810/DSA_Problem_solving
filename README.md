@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0070-climbing-stairs/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/0371-sum-of-two-integers/) | Medium |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/omkarkale2810/DSA_Problem_solving/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
